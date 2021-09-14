@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.8'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    background-color:black;
+}
+
+.nav-brand {
+   width: 50px;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+padding: 10px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 25px;
+}
+
+.showcase {
+    color: white;
+    width: 100%;
+    background-image: url(./img/desk.jpg);
+    height: 350px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin: 10px 0;
+    margin-right: 60px;
+  }
+
+  .btn:hover {
+      opacity: .8;
+  }
+
+  .showcase h2  {
+      margin-bottom: 10px;
+  }
+
+  .news-cards {
+      color: white;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+  }
+
+ 
+
+  .news-cards img {
+      width: 100%;
+      height: 200px;
+      border-radius: 25px;
+  }
+
+
+.news-cards h3 {
+    margin: 10px 0;
+}.news-cards i {
+    paddin 5px 0;
+    cursor: pointer;
+    font-size: 20px
+}
+
+.news-cards p {
+    padding: 5px 0;
+}
+
+
+
+.cards-banner-one {
+    color: white;
+    width: 100%;
+    height: 350px;
+    background-image: url(./img/tech-red.jpg);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content .btn {
+margin-left: 230px;
+}
+
+.cards-banner-one h2 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.redes {
+    background-color: #000;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    width: 95%;
+    margin-left: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.redes a {
+    font-size: 40px;
+}
+
+.img-cuarta {
+    color: white;
+    
+}
+
+#cuarta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#cuarta img {
+    margin-left: 150px;
+    border-radius: 30px;
+    margin-right: -30px;
+    
+}
+
+#cuarta h3 {
+    margin-left: 300px;
+}
+
+#cuarta p {
+    margin-left: 100px;
+}
+
+#cuarta a {
+    margin-left: 300px;
+}
+
+.footer-links {
+    background: #2f3640;
+    color: #616161;
+    font-size: 15px;
+    padding: 35px;
+    width: 98%;
+    margin-left: 25px;
+    border-radius: 30px;
+    
+}
+
+.footer-contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+
+
+}
+
+.footer-contenedor h3 {
+    font-size: 15px;
+    
+}
+
+.footer-contenedor ul li {
+    text-align: center;
+    list-style: none;
+    
+}
+
+.facebook:hover {
+    transform: scale(1.4,1.4);
+}
+.snapchat:hover {
+    transform: scale(1.4,1.4);
+}
+.telegram:hover {
+    transform: scale(1.4,1.4);
+}
+.twitter:hover {
+    transform: scale(1.4,1.4);
+}
+.instagram:hover {
+    transform: scale(1.4,1.4);
+}
+
+
+
+.footer-contenedor ul li a {
+    font-size: 10px;
+
+} 
+
+.footer-contenedor ul li {
+    line-height: 2.8;
+}
+
+.footer-two {
+background: #2f3640;
+color: #616161;
+font-size: 12px;
+padding:20px 0 ;
+text-align: center;
+padding-bottom: 20px;
+margin-left: 300px;
+}
+
+.letters {
+    text-align: center;
+}
