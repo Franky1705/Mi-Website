@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
                       <!--FONT AWESOME-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaQueries.css">
+  
     <title>MI website</title>
 </head>
 <body>
+
+ 
     
     <div class="container">
-            <nav class="nav-main">
+            <nav class="nav-main show">
                  <img src="img/brand.png" alt="Tech News" class="nav-brand">
-                      <ul class="nav-menu">
+                      <ul class="nav-menu show">
                                <li><a href="#">Web Development</a>
                                </li>
                                <li><a href="#">Computer</a>
@@ -29,13 +33,14 @@
                                </li>
                        </ul>
 
-                       <ul class="nav-menu-right">
-                                   <li>
-                                       <a href="#">
-                                           <i class="fas fa-search"></i>
-                                        </a>
-                                   </li>
-                       </ul>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i class="fas fa-bars"></i>
+                          </a>
+                        </li>
+                      </ul>
+                       
                 </nav>
                 <hr>
                  <br>
@@ -234,6 +239,7 @@
            <h3 class="letters"> Frank Acosta & copyright 2021</h3>
            </footer>   
        </div>
+       <script src="main.js"></script>
     
 </body>
 </html>

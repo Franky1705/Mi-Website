@@ -1,0 +1,38 @@
+@media only screen and (max-width:686px) {
+    
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 10;background: #2f3640;
+        height: 100%;
+        padding: 15px;
+        opacity: .7;
+        transform: translateX(-400px);
+        transition: transform .5s ease ease-in-out;
+        margin-right: 30px;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);  
+    }
+
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    #cuarta {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+  #cuarta h3 {
+      margin-left: 100px;
+  }
+
+   
+
+
+}
